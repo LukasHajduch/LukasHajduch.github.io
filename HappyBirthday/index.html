@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet"
+          href=
+                  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="Succodesign-Love-Is-In-The-Web-Heart.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styly.css">
+
+</head>
+<body>
+<div id="abc">
+    <nav>
+        <ul>
+
+            <li><a href="spomienky.html">Привітання</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="box">
+        <div class="fixed-bottom" id="author"><br></div>
+    </div>
+    <div>
+        <button class="box1" onclick="spusti()">
+            <h1>Тут щось є <i class="fa fa-heart"></i></h1>
+        </button>
+    </div>
+    <img id='smoke' src="ezgif-4-89f0b9add0.gif" alt="smoke" width="600" height="450" >
+    <style type="text/css">
+
+    .disabled
+    {
+    display:none;
+    }
+    .enabled
+    {
+        display: block;
+    }
+    </style>
+    <script languae="javascript">
+        var myPicture= document.getElementById('smoke');
+        myPicture.className = "disabled";
+    </script>
+    <script>
+        var pocet = 0
+        function spusti(){
+            pocet += 1;
+            if (pocet % 2 === 1) {
+                let myPicture = document.getElementById('smoke');
+                myPicture.className = "enabled";
+                hudba.start();
+            }
+            else{
+                let myPicture= document.getElementById('smoke');
+                myPicture.className = "disabled";
+                hudba.togglePause();
+            }
+        }
+    </script>
+    <script src="audio.js"></script>
+</body>
+</html>
