@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    #dni, #hodiny,#minuty,#sekundy{
+      font-size: x-large;
+      position: relative;
+      float: left;
+      margin: 50px;
+    #odpoce {
+        position: center;
+      }
+  }
+  </style>
+</head>
+<body onload="zmena()">
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Global</p>
+  </a>
+  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/L+S%20(40%20×%2040%C2%A0px).png" alt="I LOVE YOU">
+            <p>YOU BE MY VALENTINE?</p>
+          </a>
+
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Domov</span></li>
+            <li><span>Spomienky</span></li>
+            <li><span>Budúcnosť</span></li>
+            <li><span>Mapa</span></li>
+            <li><span>Tajomstvo</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>I<br>LOVE<br>YOU<BR>MIJKA</h1>
+                <p>Click on the right upper corner</p>
+                <img src="assets/img/[removal.ai]_dd885b8f-3669-41fb-bf24-669cd05d8ef92.png" alt="Welcome Mijka">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>#1 Why I love you</h3>
+                  <p>Tvoja krása a jedinečný štýl ma fascinujú a robia ma neskutočne šťastným. Tvoje vlasy, pery, oči a neskutočne hebká pleť sa mi neskutočne páčia.</p>
+                </a>
+                <a href="#0">
+                  <h3>#2 Why I love you</h3>
+                  <p>Milujem Ťa pre ten tvoj úprimný úsmev, keď ta niečím poteším alebo prekvapím. Tiež milujem tvoj smiech, hlavne keď sa smeješ na mne, a potom ma objímeš a pohladkáš po hlave. Síce sa vtedy cítim tak trochu ako pes, ale len ty ma vieš tak nežne hladiť po vlasoch.</p>
+                </a>
+                <a href="#0">
+                  <h3>#2 Why I love you</h3>
+                  <p>Milujem ťa kvôli všetkým tým okamihom strávenými s tebou. Pretože všetky sú nezabudnuteľné a výnimočné. S tebou sa cítim ako kompletný, rozumiem si s tebou ako by sme boli určení jeden pre druhého.</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Naše spomienky</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/photo_2022-11-03_23-24-54.jpg" alt="Victory">
+                      </div>
+                      <p class="slider--item-title"></p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/photo_2022-11-03_23-26-422.jpg" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Mijka & Ja</p>
+                      <p class="slider--item-description">&#10084;</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/objatie%20pole.jpg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title"></p>
+                      <p class="slider--item-description">🌾🚜</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/photo_2022-04-15_17-15-54.jpg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title"></p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/photo_2022-04-15_17-15-55.jpg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title"></p>
+                      <p class="slider--item-description"></p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>Práve<br>teraz<br> študujeme<br>aby<br>sme mali toto</br>.</h2>
+                <a href="#0">Career
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/output-onlinegiftools.gif" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="#0">
+                  <h3>Bohatstvo</h3>
+                </a>
+                <a href="#0">
+                  <h3>Dobrodružstvá</h3>
+                </a>
+                <a href="">
+                  <h3>Víťazstvá</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <h1>Where we first time met🫶</h1>
+                    <p>Stryiska St, 109, Lviv, Lviv Oblast, Ukrajina, 79031</p>
+                    <a href="solominkaalukasko@gmail.com">solominkaalukasko@gmail.com</a>
+                    <a href="tel:+421949244305">+421 949 244 305</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>Tajomstvo</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <h4>Solominka, ďakujem tebe za každý moment, za každú sekundu strávenú s tebou. Ďakujem tebe za 2 roky aj 2 mesiace, neskutočne veľa prežitých chvíľ. Chcem aby stále pokračovali naše nekonečné rozhovory, naše varenia, pečenia, chcem aby sme spolu precestovali celý svet zo severu až na juh. Ja si neviem predstaviť môj život bez teba, bez tvojích objatí a lásky. Chcem aby sme mohli tak ako doteraz zo všetkým sa zdvôveriť. Ďakujem ti za všetko a nechcem aby sa naše spoločné chvíle nikdy skončili. <br><br><h3>1.Milujem ťa za to, ako sa vzájomne dopĺňame<br>
+                2.Milujem ťa, pretože ti verím<br>
+                3.Milujem ťa, pretože ma rešpektuješ<br>
+                4.Milujem ťa, pretože sa prejavuješ ako ty<br>
+                5.Milujem ťa, pretože ma poznáš, aj keď mám ťažkosti vedieť sám seba<br>
+                6.Milujem ťa, pretože tvoje bozky ma robia silným<br>
+                a takto by som písať až do rána, ale už musím ísť na prednášku s Komarom.</h3>
+                <br>Chcem byť s tebou navždy. <br>Ľubím teba, Solominka.❤</h4>
+              <div id="odpocet">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center animate-box">
+                    <h2 id="odpoce">Ideme na 1000 dní</h2>
+                    <p class="countdown">
+                      <span id="dni"> Dni<br></span>
+                      <span id="hodiny"> Hod<br></span>
+                      <span id="minuty"> Min<br></span>
+                      <span id="sekundy"> Sek<br></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Domov</li>
+    <li>Spomienky</li>
+    <li>Budúcnosť</li>
+    <li>Mapa</li>
+    <li>Tajomstvo</li>
+  </ul>
+</div>
+<script>
+  function zmena(){
+    const d = new Date("2020-12-01");
+    const now = new Date();
+    var rozdiel = (now - d) / 1000 / 60 / 60 / 24
+    console.log(rozdiel)
+    document.getElementById('dni').innerHTML = Math.floor(rozdiel) + '<br>Dni';
+    document.getElementById('hodiny').innerHTML = now.getHours() + '<br>Hod';
+    document.getElementById('minuty').innerHTML = now.getMinutes() + '<br>Min';
+    document.getElementById('sekundy').innerHTML = now.getSeconds() + '<br>Sek';
+    setTimeout(zmena, 1000)
+
+
+  }
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
